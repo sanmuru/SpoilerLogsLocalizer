@@ -1,0 +1,163 @@
+[
+    {
+        "key": "OptionsAndSeed",
+        "pattern": "Options and seed: {0} --preset {1}",
+        "once": true
+    },
+    {
+        "key": "HelpMessage",
+        "skip": 2,
+        "once": true
+    },
+    {
+        "key": "BossPlacements",
+        "pattern": "-- Boss placements",
+        "once": true,
+        "entries": [
+            {
+                "key": "ReplacementTemplate",
+                "pattern": "Replacing {0} (#{1}) in {2}: {3} (#{4}) from {5}",
+                "once": false
+            }
+        ]
+    },
+    {
+        "key": "MinibossPlacements",
+        "pattern": "-- Miniboss placements",
+        "once": true,
+        "entries": [
+            {
+                "key": "ReplacementTemplate",
+                "pattern": "Replacing {0} (#{1}) in {2}: {3} (#{4}) from {5}",
+                "once": false
+            }
+        ]
+    },
+    {
+        "key": "BasicPlacements",
+        "pattern": "-- Basic placements",
+        "once": true,
+        "entries": [
+            {
+                "key": "ReplacementTemplate",
+                "pattern": "^Replacing {0} (#{1}) in {2}: {3} (#{4}) from {5}$",
+                "once": false
+            }
+        ]
+    },
+    {
+        "key": "HintsForKeyItems",
+        "pattern": "-- Hints for key items:",
+        "once": true,
+        "entries": [
+            {
+                "key": "HintTemplate",
+                "pattern": "{0}: In {1}",
+                "once": false
+            }
+        ]
+    },
+    {
+        "key": "HintsForQuestItems",
+        "pattern": "-- Hints for quest items:",
+        "once": true,
+        "entries": [
+            {
+                "key": "HintTemplate",
+                "pattern": "{0}: In {1}",
+                "once": false
+            }
+        ]
+    },
+    {
+        "key": "HintsForUpgradeItems",
+        "pattern": "-- Hints for upgrade items:",
+        "once": true,
+        "entries": [
+            {
+                "key": "HintTemplate",
+                "pattern": "{0}: In {1}",
+                "once": false
+            }
+        ]
+    },
+    {
+        "key": "HintsForHealingItems",
+        "pattern": "-- Hints for healing items:",
+        "once": true,
+        "entries": [
+            {
+                "key": "HintTemplate",
+                "pattern": "{0}: In {1}",
+                "once": false
+            }
+        ]
+    },
+    {
+        "key": "EndOfHints",
+        "pattern": "-- End of hints",
+        "once": true
+    },
+    {
+        "key": "ItemSpoilers",
+        "pattern": "-- Spoilers:",
+        "once": true,
+        "entries": "pattern.spoilers"
+    },
+    {
+        "key": "EndOfItemSpoilers",
+        "pattern": "-- End of item spoilers",
+        "once": true
+    },
+    {
+        "key": "SkillsPlacements",
+        "pattern": "-- Skills placements",
+        "once": true,
+        "entries": [
+            {
+                "key": "SkillsPlacements[0]",
+                "pattern": "Skills in {0:Shinobi Esoteric Text}: {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}"
+            },
+            {
+                "key": "SkillsPlacements[0]",
+                "pattern": "Skills in {0:Prosthetic Esoteric Text}: {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}"
+            },
+            {
+                "key": "SkillsPlacements[0]",
+                "pattern": "Skills in {0:Ashina Esoteric Text}: {1}, {2}, {3}, {4}, {5}, {6}, {7}"
+            },
+            {
+                "key": "SkillsPlacements[0]",
+                "pattern": "Skills in {0:Senpou Esoteric Text}: {1}, {2}, {3}, {4}, {5}, {6}, {7}"
+            }
+        ]
+    },
+    {
+        "key": "ProstheticsPlacements",
+        "pattern": "-- Prosthetics placements",
+        "once": true,
+        "entries": [
+            {
+                "key": "HintTemplate",
+                "pattern": "Prosthetic upgrade tier {0}: {1}",
+                "once": false
+            }
+        ]
+    },
+    {
+        "key": "WritingCommands",
+        "once": true,
+        "entries": [
+            {
+                "key": "WritingToFileCmd",
+                "pattern": "Writing to {0}",
+                "once": false
+            },
+            {
+                "key": "WritingFileCmd",
+                "pattern": "Writing {0}",
+                "once": false
+            }
+        ]
+    }
+]

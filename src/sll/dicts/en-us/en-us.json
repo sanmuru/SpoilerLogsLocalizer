@@ -1,0 +1,24 @@
+{
+    "OptionsAndSeed": "Options and seed: {0} --present {1}",
+    "HelpMessage": [
+        "Ctrl+F '{BossPlacements}' or '{MinibossPlacements}' or '{BasicPlacements}' to see enemy placements.",
+        "Ctrl+F '{Hints}' to see item placement hints, or Ctrl+F for a specific item name."
+    ],
+    "BossPlacements": "Boss placements",
+    "MinibossPlacements": "Miniboss placements",
+    "BasicPlacements": "Basic placements",
+    "ReplacementTemplate": "Replacing {0:names} (#{1}) in {2}: {3:names} ({4}) from {5}",
+    "Hints": "Hints",
+    "HintsForKeyItems": "Hints for key items",
+    "HintsForQuestItems": "Hints for quest items",
+    "HintsForUpgradeItems": "Hints for upgrade items",
+    "HintsForHealingItems": "Hints for healing items",
+    "EndOfHints": "End of hints",
+    "HintTemplate": "{0}: In {1}",
+    "ItemSpoilders": "Spoilers",
+    "EndOfItemSpoilders": "End of item spoilers",
+    "SkillsPlacements": "Skills placements",
+    "ProstheticsPlacements": "Prosthetics placements",
+    "WritingToFileCmd": "Writing to {0}",
+    "WritingFileCmd": "Writing {0}"
+}

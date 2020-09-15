@@ -1,0 +1,24 @@
+{
+    "OptionsAndSeed": "设置与种子: {0} --预设“{1}”",
+    "HelpMessage": [
+        "Ctrl+F搜索“{BossPlacements}”或“{MinibossPlacements}”或“{BasicPlacements}”以查看所有敌人位置。",
+        "Ctrl+F搜索“{Hints}”以查看所有道具位置的提示，或Ctrl+F搜索某个道具的名称。"
+    ],
+    "BossPlacements": "头目敌人位置",
+    "MinibossPlacements": "精英敌人位置",
+    "BasicPlacements": "普通敌人位置",
+    "ReplacementTemplate": "替换位于{2:names}的{0:names} (#{1}): 位于{5:names}的{3:names} (#{4})",
+    "Hints": "提示",
+    "HintsForKeyItems": "关键道具提示",
+    "HintsForQuestItems": "收集道具提示",
+    "HintsForUpgradeItems": "升级道具提示",
+    "HintsForHealingItems": "治疗道具提示",
+    "EndOfHints": "提示内容结束",
+    "HintTemplate": "{0}: 位于{1}",
+    "ItemSpoilders": "道具随机表",
+    "EndOfItemSpoilders": "道具随机表内容结束",
+    "SkillsPlacements": "技能位置",
+    "ProstheticsPlacements": "强化忍义手位置",
+    "WritingToFileCmd": "写入文件“{0}”",
+    "WritingFileCmd": "修改文件“{0}”"
+}
